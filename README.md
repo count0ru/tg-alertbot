@@ -8,11 +8,12 @@ Run this script on Flask+Uwsgi+Nginx stack
 
 Change config.yml in alertmanager:
 
->- name: "team-tg"
->  webhook_configs:
->  - url: 'http://bot_ip:bot_port'
->    send_resolved: true
-
+```
+- name: "team-tg"
+  webhook_configs:
+  - url: 'http://bot_ip:bot_port'
+    send_resolved: true
+```
 
 Create config file (config.yaml) for script with
 
