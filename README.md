@@ -16,8 +16,8 @@ Change config.yml in alertmanager:
 ```
 
 Create config file (config.yaml) for script with
-
+```
 chat_id: "CHAT_ID"
 token: "BOT_TOKEN"
-
+```
 
