@@ -1,6 +1,6 @@
-##Telegram bot for Prometheus Alertmanager
+## Telegram bot for Prometheus Alertmanager
 
-#INSTALL
+# INSTALL
 
 - Create config file (config.yaml) for script with
 ```
