@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['POST'])
 
-def parse_test():
+def parse_wait():
 
     if not request.json:
         abort(400)
